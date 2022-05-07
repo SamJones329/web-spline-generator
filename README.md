@@ -19,6 +19,10 @@ npm install
 pnpm install --shamefully-hoist
 ```
 
+If using VSCode, make sure to disable the builtin TypeScript and JavaScript 
+Language Features extension for this worksapce so that Take Over Mode is 
+enabled and the Vue language server can do detect TypeScript linting instead.
+
 ## Development Server
 
 Start the development server on http://localhost:3000
